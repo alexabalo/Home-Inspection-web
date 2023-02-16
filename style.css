@@ -1,0 +1,130 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: 	#f7fdff;
+}
+
+.navbar-nav i {
+    color: #fff;
+    font-size: 1.5rem;
+} 
+
+.navbar-nav i:hover{
+    color: orange;
+
+}
+
+#menu a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+#menu a:hover{
+    color: orange;
+}
+
+.navbar-brand img{
+    width: 100px;
+    margin: 0 3em;
+}
+
+.carousel-caption{
+    background-color: rgba(88, 86, 83, 0.9);
+    border-radius: 5px;
+    margin: 200px auto;
+    width: 500px;
+    font-size: 1.5rem;
+}
+
+.title{
+    text-align: center;
+    margin: 1.3em auto;
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    width: 450px;
+    font-size: 2.5rem;
+}
+.services{
+    width: 250px;
+    text-align: center;
+    margin: 1.3em auto;
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    width: 250px;
+    font-size: 2.5rem;
+}
+
+/*comienaz el slider de logos automaticos..........................*/
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.slider {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 7em;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 75%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+
+
+/*cards..........................*/
+.card{
+    width: 100%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer .container p{
+    margin: 20px 0;
+}
+
+.title-footer{
+    color: #691212;
+    font-size: 3rem;
+}
+
+.spain{
+    display: flex;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+}

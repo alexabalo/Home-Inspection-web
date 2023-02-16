@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+
+
+    <title></title>
+  </head>
+  <body>
+
+     <!-- Nav -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+         <!-- Icons-->
+         <a class="navbar-brand" href="#">
+          <img src="./img/logohome.png" alt="">
+        </a>
+
+          <!-- Boton-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <!-- Elemetntos del menu navbar collapse-->
+          <div class="collapse navbar-collapse" id="menu">
+            <!-- para poner elementos a la derecha hay que poner me-auto -->
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#card">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Certificates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+             <!-- linea divisora-->
+            <hr class="text-white-50">
+
+            <!-- Enlaces-->
+            <ul class="navbar-nav  flex-row flex-wrap text-light">
+              <li class="nav-item col-6 col-md-auto p-3" ><a href="https://wa.link/xpiwk8">
+                <i class="bi bi-whatsapp"></i>
+              </a></li>
+
+              <li class="nav-item col-6 col-md-auto p-3"><a href="#">
+                <i class="bi bi-facebook"></i>
+              </i></a></li>
+
+              <li class="nav-item col-6 col-md-auto p-3" ><a href="#">
+                <i class="bi bi-instagram"></i>
+              </a></li>
+
+              <li class="nav-item col-6 col-md-auto p-3" ><a href="#">
+                <i class="bi bi-twitter"></i>
+              </a></li>
+            </ul>
+
+          </div>
+      </div>
+    </nav>
+
+    <!-- Carrousel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active ">
+          <img src="./img/1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" data-aos="fade-down">
+            <h5>Home Inspection</h5>
+            <p>From $220 x 1,000sqft</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" data-aos="fade-down">
+            <h5 >Condo Apt.</h5>
+            <p>From $200 x 1,000sqft</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" data-aos="fade-down">
+            <h5>Wind Mitigation</h5>
+            <p>From $85 x 1,000sqft</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="./img/4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" data-aos="fade-down">
+            <h5>4 Points</h5>
+            <p>From $85 x 1,000sqft</p>
+          </div>
+        </div>
+        
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Cards inicio-->
+       <div class="contenedor">
+        <h2 class="services" id="card">Services</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card">
+              <img src="./img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Home Inspection</h5>
+                <p class="card-text">The general inspection of a home or apartment is a...</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#home">
+                  Read More
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="home" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="home" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="home">Home Inspection</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        The general inspection of a home or apartment is a visual, non-invasive analysis of the
+                        accessible areas of a residential property, performed by
+                        a cost, designed to identify defects within systems and components
+                        specific, defined by these Standards that are respected and considered by the inspector.
+                        prior to the inspection process.
+                        It will not show every situation that exists or could exist, but only those material defects observed on the day of the inspection.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Aca Termina el modal -->
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./img/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Condo Apt.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#condo">
+                Read More
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="condo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"                aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel"> Condo Apt.</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ducimus, eum aliquid quaerat, eligendi fugiat veritatis soluta maxime esse obcaecati dolorem tempore aperiam similique quia, blanditiis repellendus qui aspernatur ullam. 
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Aca Termina el modal -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./img/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Wind Mitigation</h5>
+                <p class="card-text">Wind mitigation is the process of reducing the...</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#wind">
+                 Read More
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="wind" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"                aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Wind Mitigation</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Wind mitigation is the process of reducing the likelihood of your home suffering damage during windstorms. Homeowners and builders add features to help homes withstand high winds.
+                        During the inspection, the inspectors will look for wind-resistant features, such as hurricane shutters, impact-resistant windows and doors, water                        barriers in the roof, the shape of your roof and how it’s attached to your roof deck and walls, and more.
+                        A wind mitigation inspection can add up to substantial savings. For example, Florida homeowners may save hundreds or thousands on their premium. Insurers                         in your state may not provide as steep a discount, but the extra protection alone may make wind mitigation worth the effort.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Aca Termina el modal -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./img/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">4 Points</h5>
+                <p class="card-text"> 4-point inspection is an examination of the current...</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#points">
+                 Read More
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="points" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"                aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">4 Points</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        4-point inspection is an examination of the current condition of a house or condominium, reviewing four major systems: roofing, electrical, plumbing and HVAC. This specific inspection is requested by homeowners insurance companies before someone can renew or be eligible for their desired coverage plan.
+                        This inspection gives a homeowners insurance company direct insight into the current condition of your house, examining four major systems: roofing,                        electrical, plumbing and HVAC. By having this inspection performed, the insurance company will understand the true liability they’ll take on should                       coverage be given.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Aca Termina el modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+       
+       
+
+       <!-- Cards........................................................................................-->
+
+       <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2 class="title" >Internachi Certification</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+          <div class="slide-track">
+              <div class="slide">
+                  <img src="./img/logo1.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./img/logo2.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./img/logo3.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./img/logo4.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./img/logo5.png" alt="">
+              </div>
+              <div class="slide">
+                  <img src="./img/logo6.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="./img/logo1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/logo2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/logo3.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/logo4.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/logo5.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./img/logo6.png" alt="">
+            </div>
+            <div class="slide">
+              <img src="./img/logo1.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="./img/logo2.png" alt="">
+        </div>
+          </div>
+      </div>
+
+      </section>
+
+
+        <!-- titulo -->
+        <div class="section-header text-center pb-3">
+          <h2 class="title" >Texto ejemplour </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Non, quo.</p>
+      </div>
+       <!-- Card -->
+
+       <div class="card">
+        <div class="row">
+          <div class="col-md-8">
+            <p class="card-text p-5">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer</p>
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <img src="./img/example.png" class="img-fluid rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+
+
+    <!-- Footer-->
+      <footer class="bg-dark p-2 text-center">
+      </div>
+     
+
+        <div class="container">
+          <div class="row mt-4">
+            <h2 class=".title-footer" id="contact">Contact Us</h2>
+          </div>
+          <div class="row p-4">
+            <div class="col-md-4 mt-3">
+                  Home Inspections:
+                  Florida Licensed HI13885,
+                  InterNACHI CPI 19052431,
+                  
+            </div>
+            <div class="col-md-4 mt-3 spain">
+              También hablamos Español
+            </div>
+            <div class="col-md-4 mt-3">
+              email: adrianrperata@gmail.com,
+              Cellphone: (786) 308-7524 
+              (305) 409-5416
+            </div>
+          </div>
+          <div class="row mt-2">
+            <p class="text-white">© 2023 all rights reserved | Alex Abalo (email:alex.abalodm@gmail.com)</p>
+          </div>
+          
+      </div>
+          </div>
+         
+    </footer>
+
+    <script src="main.js"></script>
+
+
+ 
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+     <!-- AOS Aniamation duration: tiempo y once, es para que se ejecute una sola vez, si se quiere ejecutar mas veces, hay que borrar esa parte -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+   
+    <script>
+      AOS.init({
+        duration: 1200, 
+        once: true
+      });
+    </script>
+  
+
+</body>
+</html>
+
+
+  </body>
+</html>
