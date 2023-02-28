@@ -47,6 +47,10 @@ body{
     font-size: 2rem;
 }
 
+.btn-primary{
+    background-color: #eea620;
+    border: none;
+}
 .services{
     text-align: center;
     margin: 1.3em auto;
