@@ -12,9 +12,11 @@ body{
 } 
 
 .navbar-nav i:hover{
-    color: orange;
+    color: #c82224;
 
 }
+
+
 
 #menu a{
     color: #fff;
@@ -22,7 +24,7 @@ body{
 }
 
 #menu a:hover{
-    color: orange;
+    color: #c82224;
 }
 
 .navbar-brand img{
@@ -48,7 +50,7 @@ body{
 }
 
 .btn-primary{
-    background-color: #eea620;
+    background-color: #c82224;
     border: none;
 }
 .services{
@@ -87,6 +89,8 @@ body{
 
 .slider .slide img {
     width: 75%;
+    margin-bottom: 4em;
+
 }
 
 @keyframes scroll {
@@ -132,5 +136,5 @@ footer .container p{
     border-radius: 5px;
     align-items: center;
     justify-content: center;
-    border: 1px solid orange;
+    border: 1px solid #c82224;
 }
